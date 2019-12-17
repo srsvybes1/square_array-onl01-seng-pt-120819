@@ -1,5 +1,5 @@
 def square_array(array)
- square_array.new do |y|
+ square_array = [1, 2, 3] do |y|
     array.each { |e| y << e ** 2 }    
   end
   .take(array.length)
